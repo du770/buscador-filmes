@@ -1,8 +1,9 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem 1rem;
   text-align: center;
+  background: transparent;
 }
 
 .logo {
@@ -35,6 +36,23 @@
 
 .card {
   padding: 2em;
+}
+
+.movie-details {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  color: inherit;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+.movie-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .read-the-docs {
